@@ -1,16 +1,8 @@
+/*Last Updated: 2021-4-2*/
+
 /*Section I: Frame*/
 
 /*Font/Text*/
-
-@font-face {
-    font-family: gamefont;
-    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
-}
-
-@font-face {
-    font-family: JP;
-    src: url(https://dl.dropboxusercontent.com/s/9b7aer2osbcd388/logotypejp_mp_b_1.1.ttf?dl=0);
-}
 
 * {
     font-family: gamefont, JP;
