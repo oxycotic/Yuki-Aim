@@ -1,0 +1,13 @@
+@import url(https://oxycotic.github.io/Yuki-Aim/yuki_aim.css);
+
+/*Customization*/
+
+:root {
+    --accent: #e15959; /*Default Accent: #e15959 | rgb(225, 89, 89) ↽ RGB Values for Settings */
+    --bg-color: #fff; /*Light Mode: #fff | Dark Mode: #353535 or #000*/
+    --text-color: #353535 /*Light Mode: #353535 | Dark Mode: #fff*/;
+    --hp-ammo: #fff; /*HP/Ammo Text Color*/
+    --mascot-opacity: 0; /*0 = Invisible | 1 = Visible*/
+    --weapon-icon-brightness: 2; /*0 = Black | 2 = White*/
+}
+
