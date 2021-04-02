@@ -1,2 +1,2 @@
 # Yuki-Aim
-a krunker css,
+a krunker css.
