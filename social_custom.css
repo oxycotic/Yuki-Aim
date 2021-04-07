@@ -8,8 +8,6 @@
     --secondary-bg: #000; /*Default: #000*/
     --text-color: #353535 /*Light Mode: #353535 | Dark Mode: #fff*/;
     --secondary-text: #fff; /*Default: #fff*/
-    --mascot-opacity: 0; /*0 = Invisible | 1 = Visible*/
-    --weapon-icon-brightness: 2; /*0 = Black | 2 = White*/
 }
 
 /*English Font*/
