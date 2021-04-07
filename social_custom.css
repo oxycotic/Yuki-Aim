@@ -8,6 +8,7 @@
     --secondary-bg: #000; /*Default: #000*/
     --text-color: #353535 /*Light Mode: #353535 | Dark Mode: #fff*/;
     --secondary-text: #fff; /*Default: #fff*/
+    --decals: 1; /*1: Visible | 0: Invisible*/
 }
 
 /*English Font*/
