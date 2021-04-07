@@ -85,6 +85,7 @@ option {
     z-index: 2;
     pointer-events: none;
     filter: drop-shadow(2px 2px 0px var(--bg-color)) drop-shadow(-2px -2px 0px var(--bg-color)) drop-shadow(2px -2px 0px var(--bg-color)) drop-shadow(-2px 2px 0px var(--bg-color));
+    opacity: var(--decals);
 }
 
 /*Navigation*/
