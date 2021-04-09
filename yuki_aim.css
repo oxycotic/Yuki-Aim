@@ -1879,19 +1879,23 @@ td[style*="#fff"] {
 
 #accManagerBtn {
     position: fixed;
-    top: 20px;
-    left: 50%;
+    top: 272px;
+    left: 180px;
     width: auto !important;
-    background-color: #000 !important;
-    box-shadow: 6px 6px var(--accent) !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
     text-shadow: none !important;
-    padding: 4px 8px !important;
+    padding: 0 !important;
     margin: 0 !important;
     border-radius: 0 !important;
-    color: #fff;
-    font-size: 24px !important;
-    transform: translateX(-50%);
-    text-transform: uppercase;
+    color: var(--accent);
+    font-size: 0 !important;
+}
+
+#accManagerBtn::after {
+    content: "group";
+    font-size: 40px;
+    font-family: 'Material Icons';
 }
 
 /*fuck tracers and stealers, you know who you are*/
