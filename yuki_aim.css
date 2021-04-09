@@ -346,9 +346,10 @@ input:checked+.sliderSml {
 }
 
 #menuItemContainer {
-    top: 240px;
+    top: 280px;
     bottom: 240px;
     z-index: 3;
+    justify-content: space-between;
 }
 
 #menuItemContainer::before {
@@ -383,6 +384,7 @@ input:checked+.sliderSml {
     align-items: baseline;
     padding-left: 20px;
     transform-origin: left;
+    flex-grow: unset;
 }
 
 .menuItem:hover {
@@ -1879,8 +1881,8 @@ td[style*="#fff"] {
 
 #accManagerBtn {
     position: fixed;
-    top: 272px;
-    left: 180px;
+    top: 280px;
+    left: 160px;
     width: auto !important;
     background-color: transparent !important;
     box-shadow: none !important;
