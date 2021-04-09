@@ -1885,12 +1885,13 @@ td[style*="#fff"] {
     background-color: #000 !important;
     box-shadow: 6px 6px var(--accent) !important;
     text-shadow: none !important;
-    padding: 4px 12px !important;
+    padding: 4px 8px !important;
     margin: 0 !important;
     border-radius: 0 !important;
     color: #fff;
     font-size: 24px !important;
     transform: translateX(-50%);
+    text-transform: uppercase;
 }
 
 /*fuck tracers and stealers, you know who you are*/
