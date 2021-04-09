@@ -1879,16 +1879,18 @@ td[style*="#fff"] {
 
 #accManagerBtn {
     position: fixed;
-    top: 220px;
-    left: 20px;
+    top: 20px;
+    left: 50%;
     width: auto !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
+    background-color: #000 !important;
+    box-shadow: 6px 6px var(--accent) !important;
     text-shadow: none !important;
-    padding: 0 !important;
+    padding: 4px 12px !important;
     margin: 0 !important;
-    color: var(--accent);
+    border-radius: 0 !important;
+    color: #fff;
     font-size: 24px !important;
+    transform: translateX(-50%);
 }
 
 /*fuck tracers and stealers, you know who you are*/
