@@ -1102,6 +1102,10 @@ input:checked+.slider2 {
     background-color: #000;
 }
 
+.serverPing {
+    display: none;
+}
+
 /*Settings*/
 
 .settingsHeader {
