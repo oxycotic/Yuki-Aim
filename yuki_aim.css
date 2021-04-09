@@ -1103,7 +1103,7 @@ input:checked+.slider2 {
 }
 
 .serverPing {
-    display: none;
+    display: none !important;
 }
 
 /*Settings*/
