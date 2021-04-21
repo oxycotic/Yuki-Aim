@@ -1279,7 +1279,7 @@ input[type=color] {
 }
 
 .terms:nth-last-child(2)::before {
-    content: "css by tae#4444";
+    content: "css by tae#4444"; /*delete this and you re dead*/
     margin-right: 20px;
 }
 
