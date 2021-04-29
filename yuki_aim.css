@@ -457,7 +457,7 @@ input:checked+.sliderSml {
     transition-duration: 0.5s;
 }
 
-#windowHolder[style="display: block;"] {
+#windowHolder[style*="block"] {
     position: fixed;
     content: " ";
     width: 100%;
