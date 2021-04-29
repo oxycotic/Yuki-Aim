@@ -345,6 +345,10 @@ input:checked+.sliderSml {
     padding: 8px 16px !important;
 }
 
+#faceItIconM {
+    display: none;
+}
+
 #menuItemContainer {
     top: 280px;
     bottom: 240px;
