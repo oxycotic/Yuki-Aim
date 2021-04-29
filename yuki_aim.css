@@ -520,6 +520,11 @@ input:checked+.sliderSml {
     z-index: 4;
 }
 
+#menuWindow.dark {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
 .settName, .settNameSmall {
     font-size: 32px;
     color: var(--text-color);
