@@ -1,4 +1,4 @@
-/*Last Updated: 2021-4-29*/
+/*Last Updated: 2021-5-3*/
 
 /*you are NOT allowed to reuse ANY of the code below without my permission, thank you*/
 
@@ -510,12 +510,12 @@ input:checked+.sliderSml {
     width: calc(100% - 800px) !important;
     border-radius: 0;
     box-shadow: none;
-    top: 144px;
+    top: 144px !important;
     bottom: 100px;
     border: 0;
     left: unset;
     right: 320px;
-    transform: unset;
+    transform: unset !important;
     background-color: transparent;
     z-index: 4;
 }
