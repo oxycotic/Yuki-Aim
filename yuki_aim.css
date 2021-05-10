@@ -452,6 +452,7 @@ input:checked+.sliderSml {
 
 #windowHolder {
     content: " ";
+    background-color: transparent !important;
     position: fixed;
     display: block !important;
     width: 100%;
@@ -503,6 +504,10 @@ input:checked+.sliderSml {
     text-indent: 200px;
     padding: 40px;
     -webkit-text-stroke: 2px;
+}
+
+#windowCloser {
+    z-index: 0 !important;
 }
 
 #menuWindow {
