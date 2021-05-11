@@ -91,6 +91,10 @@ a {
     bottom: 30px !important;
 }
 
+#chatList {
+    background-color: transparent;
+}
+
 #uiBase.onMenu #chatList {
     text-align: right;
 }
@@ -530,9 +534,24 @@ input:checked+.sliderSml {
     box-shadow: none !important;
 }
 
+.setBodH {
+    padding: 0;
+    background-color: transparent;
+    margin: 0;
+    width: unset;
+}
+
+.setHed {
+    background-color: transparent;
+    color: var(--accent) !important;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+}
+
 .settName, .settNameSmall {
     font-size: 32px;
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
 
 .settText, .settLabel {
