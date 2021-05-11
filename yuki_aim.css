@@ -410,7 +410,7 @@ input:checked+.sliderSml {
     font-size: 32px !important;
 }
 
-.menuItem[onclick="showWindow(1)"] {
+.menuItem[onclick*="showWindow(1)"] {
     position: fixed;
     bottom: 120px;
     left: 10px;
@@ -429,7 +429,7 @@ input:checked+.sliderSml {
     color: #fff;
 }
 
-#clientExit[onclick="clientExitPopup()"] {
+#clientExit[onclick*="clientExitPopup()"] {
     position: fixed;
     bottom: 120px;
     left: 72px;
