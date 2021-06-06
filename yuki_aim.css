@@ -1981,9 +1981,8 @@ td[style*="#fff"] {
     margin-bottom: 8px;
 }
 
-#menuClassPicker0::before {
-    content: "Added Changelog";
+#menuClassPicker1::before {
+    content: "Minor Cosmetic Fixes";
     display: block;
     color: #fff;
-    margin-bottom: 8px;
 }
