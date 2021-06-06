@@ -1968,7 +1968,8 @@ td[style*="#fff"] {
 }
 
 #menuHolder[style*="block"] #hiddenClasses {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column;
     position: fixed;
     bottom: 20px;
     right: 20px;
