@@ -1,4 +1,4 @@
-/*Last Updated: 2021-5-11*/
+/*Last Updated: 2021-6-6*/
 
 /*you are NOT allowed to reuse ANY of the code below without my permission, thank you*/
 
@@ -135,6 +135,11 @@ a {
     color: var(--accent) !important;
 }
 
+#chatInputHolder {
+    background-color: transparent;
+    border: none;
+}
+
 #chatInput {
     color: #fff;
     background-color: var(--accent);
@@ -210,10 +215,11 @@ a {
     content: " ";
     position: absolute;
     width: 100%;
-    height: calc(100% + 16px);
+    height: calc(100% + 20px);
     padding: 16px;
+    padding-bottom: 20px;
     left: -16px;
-    bottom: -24px;
+    bottom: -28px;
     background-color: #000;
     transform: skew(8deg, 4deg);
     box-shadow: 8px -8px var(--accent);
@@ -1947,3 +1953,25 @@ td[style*="#fff"] {
 }
 
 /*fuck tracers and stealers, you know who you are*/
+
+#hiddenClasses::before {
+    content: "CSS Changelog (2021-6-6)";
+    display: block;
+    border-bottom: 4px solid;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+#hiddenClasses::after {
+    content: "Added Changelogs, Minor Fixes";
+}
+
+#menuHolder[style*="block"] #hiddenClasses {
+    display: block !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-align: right;
+}
