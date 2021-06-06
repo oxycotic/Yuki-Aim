@@ -590,22 +590,22 @@ div[style="display:inline-block;padding-top:10px;vertical-align:top;width:680px;
     width: calc(100% - 200px) !important;
 }
 
-.menuTabsNew {
+.menuTabsNew, .bigMenTabs {
     border-radius: 0;
 }
 
-.menuTabNew {
+.menuTabNew, .bigMenTab {
     border-width: 0 !important;
     font-size: 20px;
     transition-duration: 0.25s;
     color: var(--text-color);
 }
 
-.menuTabNew.tabANew {
+.menuTabNew.tabANew, .bigMenTabA {
     color: var(--accent);
 }
 
-.menuTabNew:hover {
+.menuTabNew:hover, .bigMenTab:hover {
     color: var(--accent);
     opacity: 0.75;
 }
