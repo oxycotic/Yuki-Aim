@@ -1955,18 +1955,6 @@ td[style*="#fff"] {
 
 /*fuck tracers and stealers, you know who you are*/
 
-#hiddenClasses::before {
-    content: "CSS Changelog (2021-6-6)";
-    display: block;
-    border-bottom: 4px solid;
-    margin-bottom: 8px;
-    padding-bottom: 8px;
-}
-
-#hiddenClasses::after {
-    content: "Added Changelogs, Minor Fixes";
-}
-
 #menuHolder[style*="block"] #hiddenClasses {
     display: flex !important;
     flex-direction: column;
@@ -1976,4 +1964,26 @@ td[style*="#fff"] {
     color: #fff;
     font-size: 24px;
     text-align: right;
+}
+
+#hiddenClasses::before {
+    content: "CSS Changelog (2021-6-6)";
+    display: block;
+    border-bottom: 4px solid;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+#menuClassPicker0::before {
+    content: "Added Changelog";
+    display: block;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker0::before {
+    content: "Added Changelog";
+    display: block;
+    color: #fff;
+    margin-bottom: 8px;
 }
