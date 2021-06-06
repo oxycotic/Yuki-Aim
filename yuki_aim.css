@@ -567,6 +567,7 @@ input:checked+.sliderSml {
 .settName, .settNameSmall {
     font-size: 32px;
     color: var(--text-color) !important;
+    border: none;
 }
 
 .settText, .settLabel {
