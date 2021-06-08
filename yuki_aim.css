@@ -649,6 +649,11 @@ div[style="display:inline-block;padding-top:10px;vertical-align:top;width:680px;
 .accountInput {
     font-size: 32px;
     border-radius: 0;
+    color: var(--text-color);
+}
+
+.accountInput::placeholder {
+    color: var(--text-color);
 }
 
 .accountButton {
@@ -657,6 +662,10 @@ div[style="display:inline-block;padding-top:10px;vertical-align:top;width:680px;
     background-color: var(--accent);
     color: #fff;
     font-size: 32px;
+}
+
+div[style="width:100%;text-align:center;margin-top:10px;background-color:rgba(0,0,0,0.3);padding-top:10px;padding-bottom:20px;"] {
+    background-color: transparent !important;
 }
 
 /*Challenges*/
@@ -1974,12 +1983,16 @@ td[style*="#fff"] {
     bottom: 20px;
     right: 20px;
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
     text-align: right;
 }
 
+#hiddenClasses * {
+    color: #fff;
+}
+
 #hiddenClasses::before {
-    content: "CSS Changelog (2021-6-6)";
+    content: "CSS Changelog (2021-6-8)";
     display: block;
     border-bottom: 4px solid;
     margin-bottom: 8px;
@@ -1987,14 +2000,30 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "Added Changelog";
+    content: "Login text now tied to text color variable";
     display: block;
-    color: #fff;
     margin-bottom: 8px;
 }
 
 #menuClassPicker1::before {
-    content: "Minor Cosmetic Fixes";
+    content: "Updated main_custom.css file, please uninstall and reinstall CSS";
     display: block;
-    color: #fff;
+    margin-bottom: 20px;
+}
+
+#menuClassPicker11::after {
+    content: "CSS by tae";
+    display: block;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker12::after {
+    content: "Twitter: @whuuayu";
+    display: block;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker13::after {
+    content: "Discord: tae#4444";
+    display: block;
 }
