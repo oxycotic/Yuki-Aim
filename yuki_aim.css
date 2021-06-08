@@ -557,10 +557,11 @@ input:checked+.sliderSml {
 }
 
 .setHed {
-    background-color: transparent;
+    background-color: transparent !important;
     color: var(--accent) !important;
     padding: 0;
     margin: 0;
+    border: none;
     font-size: 32px;
 }
 
@@ -1159,12 +1160,13 @@ input:checked+.slider2 {
 }
 
 .plusOrMinus {
-    color: var(--accent);
+    color: var(--accent) !important;
 }
 
 .quickJoin {
     border-radius: 0;
     background-color: #000;
+    float: left;
 }
 
 .serverPing {
