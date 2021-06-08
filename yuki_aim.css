@@ -1985,6 +1985,7 @@ td[style*="#fff"] {
     color: #fff;
     font-size: 16px;
     text-align: right;
+    max-width: 280px;
 }
 
 #hiddenClasses * {
