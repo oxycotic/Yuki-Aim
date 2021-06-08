@@ -1123,6 +1123,16 @@ input:checked+.optCheck {
 .serverHeader {
     display: flex;
     justify-content: space-around;
+    background-color: var(--bg-color);
+}
+
+#serverSearch {
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+#serverSearch::placeholder {
+    color: var(--text-color);
 }
 
 .slider2 {
