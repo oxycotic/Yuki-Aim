@@ -1,4 +1,4 @@
-/*Last Updated: 2021-6-6*/
+/*Last Updated: 2021-7-12*/
 
 /*you are NOT allowed to reuse ANY of the code below without my permission, thank you*/
 
@@ -41,6 +41,15 @@ a {
     background-size: 400% 100%;
     color: transparent !important;
     -webkit-background-clip: text;
+}
+
+@keyframes menuWindow {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /*No one uses these*/
@@ -474,21 +483,32 @@ input:checked+.sliderSml {
     background-color: transparent !important;
     position: fixed;
     display: block !important;
-    width: 100%;
+    right: 0;
+    width: 0%;
     height: 100%;
-    transform: translateX(100%);
     z-index: 1 !important;
-    transition-duration: 0.5s;
+    transition: 0.25s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
 }
 
-#windowHolder[style*="block"] {
+#windowHolder[style*="display: block;"] {
     position: fixed;
     content: " ";
     width: 100%;
     height: 100%;
-    transform: translateY(0);
     z-index: 1 !important;
-    transition-duration: 0.5s;
+    animation: menuWindow 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#windowHolder[style*="display: block;"] * {
+    pointer-events: all;
+}
+
+#windowHolder[style*="display: none;"] {
+    width: 0%;
 }
 
 #windowHolder::after {
@@ -1993,7 +2013,7 @@ td[style*="#fff"] {
 }
 
 #hiddenClasses::before {
-    content: "CSS Changelog (2021-6-8)";
+    content: "2021-7-12";
     display: block;
     border-bottom: 4px solid;
     margin-bottom: 8px;
@@ -2001,13 +2021,7 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "Login text now tied to text color variable";
-    display: block;
-    margin-bottom: 8px;
-}
-
-#menuClassPicker1::before {
-    content: "Updated main_custom.css file, please uninstall and reinstall CSS";
+    content: "Adjusted Menu Window Animation";
     display: block;
     margin-bottom: 20px;
 }
