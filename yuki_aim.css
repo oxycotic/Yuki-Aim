@@ -1513,7 +1513,8 @@ input[type=color] {
 
 #reloadMsg {
     bottom: calc(50% - 200px);
-    background-image: none;
+    background-color: transparent !important;
+    border: none;
     color: var(--accent);
     font-family: 'Material Icons';
     font-size: 0;
@@ -2025,6 +2026,12 @@ td[style*="#fff"] {
 
 #menuClassPicker0::before {
     content: "Adjusted menu window animation";
+    display: block;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker1::before {
+    content: "Fixed reloading visuals";
     display: block;
     margin-bottom: 20px;
 }
