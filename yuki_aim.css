@@ -1,4 +1,4 @@
-/*Last Updated: 2021-7-12*/
+/*Last Updated: 2021-7-30*/
 
 /*you are NOT allowed to reuse ANY of the code below without my permission, thank you*/
 
@@ -80,6 +80,46 @@ a {
 
 #tlInfHold {
     display: none;
+}
+
+/*Loading Screen*/
+
+#initLoader {
+    background-color: var(--bg-color);
+}
+
+#loadHeader {
+    content: url(https://i.imgur.com/WgkzcKF.png);
+    height: 280px;
+}
+
+#loadInfoRHolder {
+    color: #fff;
+    font-size: 0;
+    background-color: #000;
+    padding: 4px 8px;
+    box-shadow: 4px 4px var(--accent);
+}
+
+#loadInfoRHolder::after {
+    content: "Donator of the Month: Conspiire";
+    font-size: 20px;
+}
+
+#loadTipsHolder {
+    color: var(--text-color);
+    font-size: 0;
+}
+
+#loadTipsHolder::before {
+    content: "CSS by tae";
+    display: block;
+    font-size: 24px;
+}
+
+#loadTipsHolder::after {
+    content: "twitter: @whuuayu ・ discord: tae#4444";
+    font-size: 24px;
 }
 
 /*Section II: Chat*/
@@ -371,6 +411,14 @@ input:checked+.sliderSml {
     font-size: 24px !important;
     color: var(--accent);
     padding: 8px 16px !important;
+}
+
+.button:hover {
+    border: none !important;
+}
+
+.button {
+    border: none !important;
 }
 
 #faceItIconM {
