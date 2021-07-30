@@ -2073,30 +2073,12 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "Adjusted menu window animation";
+    content: "Fixed Visuals for certain elements";
     display: block;
     margin-bottom: 8px;
 }
 
 #menuClassPicker1::before {
-    content: "Fixed reloading visuals";
-    display: block;
-    margin-bottom: 20px;
-}
-
-#menuClassPicker11::after {
-    content: "CSS by tae";
-    display: block;
-    margin-bottom: 8px;
-}
-
-#menuClassPicker12::after {
-    content: "Twitter: @whuuayu";
-    display: block;
-    margin-bottom: 8px;
-}
-
-#menuClassPicker13::after {
-    content: "Discord: tae#4444";
+    content: "Adjusted loading screen";
     display: block;
 }
