@@ -2063,7 +2063,7 @@ td[style*="#fff"] {
 }
 
 #hiddenClasses::before {
-    content: "2021-7-12";
+    content: "2021-7-30";
     display: block;
     padding: 4px 4px 0px 4px;
     margin-bottom: 8px;
@@ -2079,6 +2079,18 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker1::before {
-    content: "Adjusted loading screen";
+    content: "Adjusted location of certain elements";
+    display: block;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker2::before {
+    content: "Added a loading screen";
+    display: block;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker3::before {
+    content: "Added Donator List";
     display: block;
 }
