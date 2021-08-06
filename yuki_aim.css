@@ -82,6 +82,10 @@ a {
     display: none;
 }
 
+#loadEditrBtn {
+    display: none;
+}
+
 /*Loading Screen*/
 
 #initLoader {
@@ -272,6 +276,7 @@ a {
     background-color: #000;
     transform: skew(8deg, 4deg);
     box-shadow: 8px -8px var(--accent);
+    z-index: -1;
 }
 
 .headerBarLeft div {
@@ -304,15 +309,20 @@ a {
 }
 
 #mLevelCont {
-    box-shadow: 24px -8px var(--accent);
+    box-shadow: 16px -8px var(--accent);
     position: absolute;
-    left: calc(100% - 8px) !important;
+    left: 100% !important;
+    margin: 0px;
 }
 
-#mLevelCont::before {
+#mLevelContV::before {
     content: "LVL";
     font-size: 16px;
     margin-right: 8px;
+}
+
+#menuLevelBar {
+    display: none;
 }
 
 #headerRight {
@@ -428,8 +438,10 @@ input:checked+.sliderSml {
 #menuItemContainer {
     top: 280px;
     bottom: 240px;
+    width: 0;
     z-index: 3;
     justify-content: space-between;
+    background-color: transparent;
 }
 
 #menuItemContainer::before {
@@ -476,10 +488,15 @@ input:checked+.sliderSml {
     display: none;
 }
 
+.menBtnIcn {
+    display: none !important;
+}
+
 .menuItem .menuItemTitle {
     margin-top: 0;
-    font-size: 32px;
+    font-size: 32px !important;
     color: var(--accent);
+    width: max-content;
 }
 
 #menuBtnChall {
@@ -512,8 +529,8 @@ input:checked+.sliderSml {
     padding: 0;
 }
 
-#menuBtnExit {
-    font-size: 0;
+#menuBtnExit, #menuBtnSettings {
+    font-size: 0 !important;
     font-family: 'Material Icons';
     filter: none;
 }
@@ -615,6 +632,30 @@ input:checked+.sliderSml {
 #menuWindow.dark {
     background-color: transparent !important;
     box-shadow: none !important;
+}
+
+#statHolder {
+    margin-top: 8px;
+}
+
+.pSt {
+    width: 100%;
+    text-align: left;
+    font-size: 32px;
+    text-shadow: none !important;
+    color: var(--text-color) !important;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 4px 0;
+    text-transform: unset;
+}
+
+.pSt strong {
+    font-size: 32px;
+    float: right;
+    color: var(--accent);
+    filter: drop-shadow(2px 2px var(--bg-color)) drop-shadow(-2px -2px var(--bg-color)) drop-shadow(-2px 2px var(--bg-color)) drop-shadow(2px -2px var(--bg-color));
 }
 
 .setBodH {
@@ -2063,7 +2104,7 @@ td[style*="#fff"] {
 }
 
 #hiddenClasses::before {
-    content: "2021-7-30";
+    content: "2021-8-5";
     display: block;
     padding: 4px 4px 0px 4px;
     margin-bottom: 8px;
@@ -2073,10 +2114,12 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "Fixed Visuals for certain elements";
+    content: "Hotfix for some elements";
     display: block;
     margin-bottom: 8px;
 }
+
+/*
 
 #menuClassPicker1::before {
     content: "Adjusted location of certain elements";
@@ -2094,3 +2137,5 @@ td[style*="#fff"] {
     content: "Added Donator List";
     display: block;
 }
+
+*/
