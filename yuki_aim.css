@@ -95,7 +95,7 @@ a {
 #loadHeader {
     content: linear-gradient(transparent, transparent);
     background-color: var(--accent);
-    -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_150x.png);
+    -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_256x256_crop_center.png);
     -webkit-mask-size: contain;
     -webkit-mask-position: center top;
     height: 68px;
@@ -247,7 +247,7 @@ a {
     height: 68px;
     width: 320px;
     margin-top: 00px;
-    -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_150x.png);
+    -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_256x256_crop_center.png);
     -webkit-mask-size: contain;
 }
 
