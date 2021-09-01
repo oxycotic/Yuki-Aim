@@ -17,13 +17,13 @@
     --hp-ammo: #fff;
     /*HP/Ammo Text Color*/
     
-    --mascot-opacity: 0;
+    --hud-mascot-opacity: 0;
     /*0 = Invisible | 1 = Visible*/
     
     --weapon-icon-brightness: 2;
     /*0 = Black | 2 = White*/
     
-    --decals: 1;
+    --menu-decal: 1;
     /*0 = Invisible | 1 = Visible*/
 }
 
