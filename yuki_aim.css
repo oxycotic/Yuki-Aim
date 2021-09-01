@@ -52,6 +52,15 @@ a {
     }
 }
 
+@keyframes loading-ring {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /*No one uses these*/
 
 #aHolder, .endAHolder {
@@ -129,6 +138,20 @@ a {
 #loadTipsHolder::after {
     content: "twitter: @whuuayu ・ discord: tae#4444";
     font-size: 24px;
+}
+
+.lC-cube {
+    display: none;
+}
+
+#lC-cont::after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    border: 4px outset var(--accent);
+    border-radius: 50%;
+    animation: loading-ring 2.5s ease-in-out infinite;
 }
 
 /*Section II: Chat*/
