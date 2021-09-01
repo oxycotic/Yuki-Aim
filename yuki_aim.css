@@ -468,7 +468,7 @@ input:checked+.sliderSml {
     height: 200px;
     position: fixed;
     bottom: 0;
-    left: -48px;
+    left: -56px;
     background-color: var(--accent);
     border-radius: 50%;
     z-index: -1;
