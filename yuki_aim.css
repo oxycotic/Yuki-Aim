@@ -239,7 +239,7 @@ a {
     transform: unset;
     background-color: var(--accent);
     content: linear-gradient(transparent, transparent);
-    height: 70px;
+    height: 68px;
     width: 320px;
     margin-top: 00px;
     -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_150x.png);
@@ -2133,7 +2133,7 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "changed variable names, reinstall is highly recommended";
+    content: "changed variable names, if anything appears off, reinstall";
     display: block;
     margin-bottom: 8px;
 }
@@ -2144,14 +2144,13 @@ td[style*="#fff"] {
     margin-bottom: 8px;
 }
 
-/*
-
 #menuClassPicker2::before {
-    content: "Added a loading screen";
+    content: "updated logo";
     display: block;
     margin-bottom: 8px;
 }
 
+/*
 #menuClassPicker3::before {
     content: "Added Donator List";
     display: block;
