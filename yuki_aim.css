@@ -93,8 +93,13 @@ a {
 }
 
 #loadHeader {
-    content: url(https://i.imgur.com/WgkzcKF.png);
-    height: 280px;
+    content: linear-gradient(transparent, transparent);
+    background-color: var(--accent);
+    -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_150x.png);
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center top;
+    height: 68px;
+    width: 320px;
 }
 
 #loadInfoRHolder {
