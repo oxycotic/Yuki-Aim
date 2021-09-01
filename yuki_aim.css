@@ -1,4 +1,4 @@
-/*Last Updated: 2021-8-5*/
+/*Last Updated: 2021-9-1*/
 
 /*you are NOT allowed to reuse ANY of the code below without my permission, thank you*/
 
@@ -234,21 +234,20 @@ a {
 }
 
 #gameNameHolder {
-    top: 40px;
+    top: 120px;
     left: 20px;
     transform: unset;
+    background-color: var(--accent);
+    content: linear-gradient(transparent, transparent);
+    height: 70px;
+    width: 320px;
+    margin-top: 00px;
+    -webkit-mask-image: url(https://cdn.shopify.com/s/files/1/0583/2451/7037/files/Logotype-White-Transparent_150x.png);
+    -webkit-mask-size: contain;
 }
 
-/*https://i.imgur.com/WgkzcKF.png*/
-
-/*https://cdn.discordapp.com/attachments/785234774427959349/818683453653647400/yukilogored.png*/
-
 #mainLogo {
-    content: url(https://i.imgur.com/WgkzcKF.png);
-    height: 180px;
-    filter: drop-shadow(2px 2px 0px var(--bg-color)) drop-shadow(-2px -2px 0px var(--bg-color)) drop-shadow(2px -2px 0px var(--bg-color)) drop-shadow(-2px 2px 0px var(--bg-color)) drop-shadow(4px 4px 0px var(--bg-color));
-    margin-top: 00px;
-    transform: skew(0, -8deg);
+  display: none;
 }
 
 #seasonLabel {
@@ -313,6 +312,7 @@ a {
     position: absolute;
     left: 100% !important;
     margin: 0px;
+    padding-right: 20px;
 }
 
 #mLevelContV::before {
@@ -576,20 +576,38 @@ input:checked+.sliderSml {
     width: 0%;
 }
 
+#windowHolder::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: -48px;
+    width: 420px;
+    height: 420px;
+    background-image: url(https://media.discordapp.net/attachments/785234774427959349/818707568758882325/YUKI_BITCH_JPEG3.png);
+    background-size: 420px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    pointer-events: none;
+    filter: opacity(0.5) drop-shadow(2px 2px 0px var(--bg-color)) drop-shadow(-2px -2px 0px var(--bg-color)) drop-shadow(2px -2px 0px var(--bg-color)) drop-shadow(-2px 2px 0px var(--bg-color));
+    opacity: var(--menu-decal);
+}
+
 #windowHolder::after {
     content: " ";
-    position: fixed;
     display: block;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://media.discordapp.net/attachments/785234774427959349/818707568758882325/YUKI_BITCH_JPEG3.png);
-    background-size: 480px;
-    background-repeat: no-repeat;
-    background-position: right calc(100% - 20px);
-    z-index: 2;
+    position: fixed;
+    right: 0px;
+    bottom: -48px;
+    width: 420px;
+    height: 420px;
+    background-color: var(--accent);
     pointer-events: none;
-    filter: drop-shadow(2px 2px 0px var(--bg-color)) drop-shadow(-2px -2px 0px var(--bg-color)) drop-shadow(2px -2px 0px var(--bg-color)) drop-shadow(-2px 2px 0px var(--bg-color)) drop-shadow(-2px 2px 0px var(--bg-color));
-    opacity: var(--decals);
+    -webkit-mask-image: url(https://media.discordapp.net/attachments/785234774427959349/818707568758882325/YUKI_BITCH_JPEG3.png);
+    -webkit-mask-size: 420px;
+    -webkit-mask-position: center top;
+    opacity: var(--menu-decal);
+    z-index: 2;
 }
 
 #windowHeader {
@@ -737,6 +755,7 @@ div[style="display:inline-block;padding-top:10px;vertical-align:top;width:680px;
     font-size: 32px;
     text-align: right;
     top: 0px;
+    text-shadow: none;
 }
 
 .xpBarB {
@@ -1533,7 +1552,7 @@ input[type=color] {
     left: calc(50% - 420px);
     z-index: -2;
     filter: drop-shadow(8px 4px var(--accent));
-    opacity: var(--mascot-opacity);
+    opacity: var(--hud-mascot-opacity);
 }
 
 #healthBar {
@@ -2114,18 +2133,18 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "Hotfix for some elements";
+    content: "changed variable names, reinstall is highly recommended";
+    display: block;
+    margin-bottom: 8px;
+}
+
+#menuClassPicker1::before {
+    content: "menu decal and logo color now match accent color";
     display: block;
     margin-bottom: 8px;
 }
 
 /*
-
-#menuClassPicker1::before {
-    content: "Adjusted location of certain elements";
-    display: block;
-    margin-bottom: 8px;
-}
 
 #menuClassPicker2::before {
     content: "Added a loading screen";
