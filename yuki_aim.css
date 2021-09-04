@@ -638,6 +638,10 @@ input:checked+.sliderSml {
     z-index: 2;
 }
 
+#windowHolder[style*="display: block;"] #windowCHolder {
+    pointer-events: none;
+}
+
 #windowHeader {
     width: calc(100% - 172px);
     height: 100%;
