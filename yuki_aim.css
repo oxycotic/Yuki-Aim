@@ -2165,7 +2165,7 @@ td[style*="#fff"] {
 }
 
 #menuClassPicker0::before {
-    content: "moving websites, reinstall at whuuayu.github.io/krunker";
+    content: "version no longer supported, reinstall at whuuayu.github.io/krunker";
     display: block;
     color: var(--accent)
 }
